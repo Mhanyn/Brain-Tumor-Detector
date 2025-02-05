@@ -1,5 +1,6 @@
 # Brain-Tumor-Detector
-CNN-Based Diagnosis of Brain Tumors
+CNN-Based Diagnosis of Brain Tumors.
+
 This repository contains the code and data for a research project on using Convolutional Neural Networks (CNNs) to diagnose brain tumors from MRI scans. The project investigates the effectiveness of various CNN architectures, including a custom-designed model and pre-trained models (DenseNet201 and Xception), for classifying brain MRI scans into four categories: Glioma, Meningioma, Pituitary, and Healthy.
 
 ## Abstract
@@ -30,11 +31,8 @@ The code is organized into the following directories:
 * `results`: Contains the experimental results, including confusion matrices and ROC curves.
 * `training`: Contains the training scripts.
 
-## Getting Started
+## Requirements
 
-Make sure you install the following libraries:
-
-* Python 3.x
 * TensorFlow/Keras (or PyTorch)
 * NumPy
 * Scikit-learn
