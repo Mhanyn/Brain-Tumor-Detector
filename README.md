@@ -12,14 +12,13 @@ The project followed a multi-phase approach:
 
 1. **Data Acquisition and Preprocessing:**  A dataset of 7023 brain MRI scans was utilized, categorized into four tumor types. Data augmentation and normalization techniques were employed to improve model robustness.
 2. **Model Development:** Four CNN architectures were implemented:
-    * A custom-designed CNN optimized for brain tumor classification.
-    * Fine-tuned pre-trained models (DenseNet201 and Xception).
+    * 1 custom-designed CNN optimized for brain tumor classification.
+    * 3 Fine-tuned pre-trained models.
 3. **Model Training and Evaluation:** Models were trained using the Adam optimizer and evaluated using various metrics, including accuracy, precision, recall, F1-score, and loss. Confusion matrices and ROC curves were generated for detailed performance analysis.
 
 ## Results
 
 The custom-designed CNN model significantly outperformed the pre-trained models, achieving a test accuracy of 99.25%. The superior performance is attributed to its tailored architecture and the incorporation of pixel intensity analysis. Detailed results, including confusion matrices, ROC curves, and F1-scores for each class are presented in the code.
-
 
 ## Code Structure
 
@@ -31,7 +30,9 @@ The code is organized into the following directories:
 * `results`: Contains the experimental results, including confusion matrices and ROC curves.
 * `training`: Contains the training scripts.
 
-## Requirements
+## Getting Started
+
+Make sure you install the following libraries:
 
 * Python 3.x
 * TensorFlow/Keras (or PyTorch)
@@ -40,4 +41,4 @@ The code is organized into the following directories:
 * Matplotlib
 
 ## License
-
+Creative Commons Zero v1.0 Universal
